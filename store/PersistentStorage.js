@@ -14,9 +14,4 @@ export class PersistentStorage {
     const serializedState = JSON.stringify(state);
     localStorage.setItem(LOCAL_STORAGE_ITEM_NAME, serializedState);
   }
-
-  static clear() {
-    localStorage.removeItem(LOCAL_STORAGE_ITEM_NAME);
-  }
-
-}
+};

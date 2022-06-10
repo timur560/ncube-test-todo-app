@@ -18,4 +18,4 @@ export const Button = styled.button`
   ${props => props.warninig && css`
     background-color: #D6B616;
   `}
-`
+`;
